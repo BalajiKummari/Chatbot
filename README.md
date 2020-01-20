@@ -14,38 +14,38 @@ And then go to http://localhost:9000 to see the running web application.
 
 ## Controllers
 
-There are several demonstration files available in this template.
+There are several  files available in this template.
 
-- `HomeController.java`:
+- `LoginController.java`:
 
-  Shows how to handle simple HTTP requests.
+  Shows how to handle simple HTTP requests to login the user.
 
-- `AsyncController.java`:
+- `ChatMessageController.java`:
 
   Shows how to do asynchronous programming when handling a request.
 
-- `CountController.java`:
+## Views
 
-  Shows how to inject a component into a controller and use the component when
-  handling requests.
+- `login.scala.html`:
 
-## Components
+  Contains the form to be rendered to login the user.
 
-- `Module.java`:
+- `chatview.scala.html`:
 
-  Shows how to use Guice to bind all the components needed by your application.
+  Contains the needed fields to create a chat view.
 
-- `Counter.java`:
+- `chatbot.scala.html`:
+  Contains the html for a chatbox
+  
 
-  An example of a component that contains state, in this case a simple counter.
+## Models
 
-- `ApplicationTimer.java`:
+  Models contain the objects that are to be defined.
 
-  An example of a component that starts when the application starts and stops
-  when the application stops.
+## Services
 
-## Filters
+  Services package contains all the methods to be implemented by the objects we have defined.
+  
+## Public
 
-- `ExampleFilter.java`:
-
-  A simple filter that adds a header to every response.
+  Public folder contains the javascript files- custom.js(asynchronous functioning), stylesheets and images.
