@@ -46,6 +46,14 @@ There are several  files available in this template.
 
   Services package contains all the methods to be implemented by the objects we have defined.
   
+- `LoginService`:
+    
+    This contains the methods preRegister(), register(), preLogin(), login() defined for the objects in the LoginForm.java and            RegisterForm.java
+  
+- `ChatMessageService`:
+
+    This contains the methods to get the respones defined for the objects in ChatMessage.java and MessageForm.java
+  
 ## Public
 
   Public folder contains the javascript files- custom.js(asynchronous functioning), stylesheets and images.
