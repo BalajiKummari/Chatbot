@@ -57,7 +57,9 @@ There are several  files available in this template.
 ## Public
 
   Public folder contains the javascript files- custom.js(asynchronous functioning), stylesheets and images.
-  
+ 
+ 
+ 
   
 ## API DOCUMENTATION
 
